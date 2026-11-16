@@ -1,6 +1,8 @@
 FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
+ENV MINESTUDIO_GPU_RENDER=1
+ENV UV_LINK_MODE=copy
 
 # Install system dependencies required by MineStudio
 RUN apt-get update && apt-get install -y \
