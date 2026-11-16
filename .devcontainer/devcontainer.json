@@ -1,0 +1,17 @@
+{
+  "name": "MineStudio Dev",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/workspace/.venv/bin/python"
+      }
+    }
+  }
+}
