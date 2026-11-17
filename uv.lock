@@ -1475,6 +1475,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "datasets" },
+    { name = "einops" },
     { name = "gymnasium" },
     { name = "huggingface-hub" },
     { name = "ipywidgets" },
@@ -1493,6 +1494,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "datasets", specifier = "<4.0.0" },
+    { name = "einops", specifier = ">=0.8.2" },
     { name = "gymnasium", specifier = ">=1.4.0" },
     { name = "huggingface-hub", specifier = ">=2.4.0" },
     { name = "ipywidgets", specifier = ">=8.1.9" },
